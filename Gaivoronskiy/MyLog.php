@@ -21,7 +21,9 @@ Class MyLog extends LogAbstract implements LogInterface {
     
     public function _write(){
 
-
+if(!is_dir("log")){
+		mkdir("log", 0700);
+	}
         $d = date_create();
         $z = (string)$d->format('d-m-Y\TH.i.s.u');
         foreach($this->log as $value){
