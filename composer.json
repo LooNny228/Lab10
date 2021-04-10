@@ -1,0 +1,30 @@
+{
+    "name": "loonny228/lab10",
+    "description": "Gaivoronskiy",
+    "type": "library",
+    "license": "-",
+    "authors": [
+        {
+            "name": "LooNny228",
+            "email": "ropopo012@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"psr-4":{
+			"Gaivoronskiy\\": "Gaivoronskiy"
+		}
+	},
+    "require": {
+		"rok9ru/trpo-core": "2.0"
+	},
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
+
+
