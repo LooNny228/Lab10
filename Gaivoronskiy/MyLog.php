@@ -53,6 +53,6 @@ class MyLog extends LogAbstract implements LogInterface
 
             file_put_contents($_SERVER['DOCUMENT_ROOT']. "log\\".$z.".log", trim($value."\r\n") . PHP_EOL, FILE_APPEND);
         }
-        
+	  } 
     }
 ?>
