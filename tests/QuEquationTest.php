@@ -18,8 +18,8 @@ class QuEquationTest extends TestCase
     public function testQuEquation()
     {
         $QuEquationEx = new QuEquation();
-        $this->assertEquals([-5, 5], $QuEquationEx->solve(-3, 0, 75));
-        $this->assertEquals([-3], $QuEquationEx->solve(0, 3, 9));
-        $this->assertEquals([-3], $QuEquationEx->solve(1, 6, 9));
+        $this->assertEquals([-5, 5], $QuEquationEx->li_solve(-3, 0, 75));
+        $this->assertEquals([-3], $QuEquationEx->li_solve(0, 3, 9));
+        $this->assertEquals([-3], $QuEquationEx->li_solve(1, 6, 9));
     }
 }
